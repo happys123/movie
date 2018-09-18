@@ -90,11 +90,12 @@
             return $node
         }
     }
-    // sadfasdadsfS
+    
     var Paging = {
         init: function(){
             this.$tabs = $('.label >li')
             this.$pages = $('.writing >li')
+            $('.writing').css({height: $('.tab').height() - $('.label').height()})
             this.bind()
         },
         bind: function(){
