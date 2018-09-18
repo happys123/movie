@@ -23,7 +23,7 @@
     100%    {transform: rotateZ(360deg)}
 }
 .tab {
-    height: 645px;
+    height: 100vh;
     padding: 10px;
     background: #fff;
     overflow: scroll;
