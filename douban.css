@@ -51,7 +51,6 @@
     color: rgb(233, 164, 16)
 }
 .writing {
-    height: 600px;
     overflow: scroll;
 }
 .writing >li {
